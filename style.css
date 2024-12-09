@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    background: linear-gradient(90deg, rgba(224,223,222,1) 0%, rgba(29,222,253,1) 48%, rgba(230,228,226,1) 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px #4a4a4a;
+}
+.header {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.input-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 5px;
+}
+.input-group button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.input-group button:hover {
+    background: linear-gradient(to top, black, 20%, #07ffff);
+    font-weight: 700;
+
+}
+.list {
+    border: 1px solid #838282;
+    padding: 10px;
+    border-radius: 5px;
+    max-height: 200px;
+    overflow-y: auto;
+    background: white;
+}
+.list div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+}
+.list div:last-child {
+    border-bottom: none;
+}
+.list div input {
+    margin-right: 10px;
+}
+.actions {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.actions button {
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.actions button:hover {
+    background: linear-gradient(to top, black, 20%, #07ffff);
+    font-weight: 700;
+}
